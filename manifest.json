@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Persona Page Analyzer",
+  "version": "1.0",
+  "description": "Uses a multi-modal LLM to analyze a webpage against a buyer persona.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/Josh_Squires_PersonaBuster_Logo_16.png",
+      "48": "images/Josh_Squires_PersonaBuster_Logo_48.png",
+      "128": "images/Josh_Squires_PersonaBuster_Logo_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/Josh_Squires_PersonaBuster_Logo_16.png",
+    "48": "images/Josh_Squires_PersonaBuster_Logo_48.png",
+    "128": "images/Josh_Squires_PersonaBuster_Logo_128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; connect-src 'self' https://generativelanguage.googleapis.com; object-src 'self'"
+  }
+}

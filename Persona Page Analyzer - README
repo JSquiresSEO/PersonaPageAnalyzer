@@ -1,0 +1,59 @@
+Persona Page Analyzer - README
+
+Thank you for using the Persona Page Analyzer extension! 
+This tool uses Google's Gemini AI to analyze a webpage's design, content, and code against a specific buyer persona and a key user task.
+
+1. HOW TO INSTALL THE EXTENSION
+To use this extension, you'll need to load it into Chrome manually.
+
+UNZIP THE FILE: 
+If you received this as a .zip file, unzip it first. You should have a regular folder (e.g., "PersonaBuster"). Save this folder somewhere you won't delete it, like your Desktop or Documents folder.
+
+OPEN CHROME EXTENSIONS: 
+In your Chrome browser, type chrome://extensions into the address bar and press Enter.
+
+ENABLE DEVELOPER MODE: 
+In the top-right corner of the extensions page, find the "Developer mode" toggle and switch it ON. This will make new buttons appear.
+
+LOAD THE EXTENSION: 
+Click the "Load unpacked" button on the top-left. A file browser will open. Navigate to and select the folder you unzipped in step 1. The "Persona Page Analyzer" will now appear in your list of extensions and in your Chrome toolbar (you may need to click the puzzle piece icon to pin it).
+
+2. HOW TO SET UP YOUR API KEY
+The extension requires a Google Gemini API key to work.
+
+GET YOUR KEY: 
+Obtain your API key from Google AI Studio.
+
+SAVE YOUR KEY IN THE EXTENSION:
+Click the Persona Page Analyzer icon in your Chrome toolbar to open the popup.Paste your API key into the "Gemini API Key" field. 
+Click the "Save" button next to the field.Once saved, the key will be stored securely and you will not have to enter it again.
+
+3. HOW TO USE THE ANALYZERNAVIGATE TO A WEBPAGE: 
+Go to the webpage you want to analyze.
+
+OPEN THE EXTENSION: 
+Click the Persona Page Analyzer icon in your toolbar.
+
+DEFINE THE PERSONA: 
+In the "Buyer Persona" text box, describe the target user.To save a persona for future use, check the "Keep Persona" box. 
+The text will be saved automatically.To clear a saved persona, click the "Clear Persona" button.
+
+DEFINE THE TASK: 
+In the "Task to be Completed" text box, describe the specific action the persona is trying to accomplish on this page (e.g., "Find the price for a specific product," "Sign up for the newsletter," "Understand the company's main service.").
+
+RUN THE ANALYSIS: 
+Click the "Analyze Page" button. The button will show a loading spinner while the AI works. This may take 10-20 seconds.
+
+VIEW THE RESULTS: 
+The analysis will appear directly in the popup window, broken into two main sections: "Persona Alignment" and "Task Completion." 
+The result is persistent, meaning you can click away or close the popup and your last analysis will be there when you re-open it.
+
+COPY THE RESULTS: 
+Click the "Copy" button to copy the analysis text to your clipboard. 
+You can then paste it into a document or email.
+
+START A NEW ANALYSIS: 
+To clear the current result and analyze a new page, simply click the "New Analysis" button. This will take you back to the main input screen.
+
+###
+Copyright 2025 - Joshua Squires
